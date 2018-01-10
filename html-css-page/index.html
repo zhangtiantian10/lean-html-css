@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link type="text/css" rel="stylesheet" href="index.css">
+	<title>HTML</title>
+</head>
+<body>
+<div class="title">
+	<h1>统一建模语言理论测试</h1>
+</div>
+<div class="paper-info">
+	<div class="col"><span class="font-style">考试科目：</span>统一建模语言</div>
+	<div class="col"><span class="font-style">时间：</span>100分钟</div>
+	<div class="col"><span class="font-style">得分：</span></div>
+</div>
+<div class="paper-info">
+	<div class="col">
+		<span class="font-style">班级（必填）：</span>
+		<input class="input-text" type="text"/>
+	</div>
+	<div class="col">
+		<span class="font-style">学号（必填）：</span>
+		<input class="input-text" type="text"/>
+	</div>
+	<div class="col">
+		<span class="font-style">姓名（必填）：</span>
+		<input class="input-text" type="text"/>
+	</div>
+</div>
+<div>
+	<div class="quiz">
+		<div class="quiz-title">一、填空题（每空5分，共20分）</div>
+		<ol>
+			<li>
+				<div class="font-style">UML的中文全称是：</div>
+				<input class="input-text" type="text"/>
+			</li>
+			<li>
+				<div class="font-style">对象最突出的特征是：</div>
+				<div>
+					<input class="input-text" type="text"/>
+					<input class="input-text" type="text"/>
+					<input class="input-text" type="text"/>
+				</div>
+			</li>
+		</ol>
+	</div>
+	<div class="quiz">
+		<div class="quiz-title">二、选择题（每题10分，共20分）</div>
+		<ol>
+			<li>
+				<p class="font-style">UML与软件工程的关系是：</p>
+				<ul>
+					<li class="none-point"><input name="selectOne" type="radio"/>(A)UML就是软件工程</li>
+					<li class="none-point"><input name="selectOne" type="radio"/>(B)UML参与到软件工程中软件开发过程的几个阶段</li>
+					<li class="none-point"><input name="selectOne" type="radio"/>(C)UML与软件工程无关</li>
+					<li class="none-point"><input name="selectOne" type="radio"/>(D)UML是软件工程的一部分</li>
+				</ul>
+			</li>
+			<li>
+				<p class="font-style">Java语言支持：</p>
+				<ul>
+					<li class="none-point"><input name="selectTwo" type="radio"/>(A)单继承</li>
+					<li class="none-point"><input name="selectTwo" type="radio"/>(B)多继承</li>
+					<li class="none-point"><input name="selectTwo" type="radio"/>(C)单继承和多继承都支持</li>
+					<li class="none-point"><input name="selectTwo" type="radio"/>(D)单继承和多继承都不支持</li>
+				</ul>
+			</li>
+		</ol>
+	</div>
+	<div class="quiz">
+		<div class="quiz-title">三、多项选择（每题10分，共20分）</div>
+		<ol>
+			<li>
+				<p class="font-style">用例的粒度分为以下哪三种：</p>
+				<ul>
+					<li class="none-point"><input name="selectThree" type="checkbox" />(A)概述级</li>
+					<li class="none-point"><input name="selectThree" type="checkbox" />(B)需求级</li>
+					<li class="none-point"><input name="selectThree" type="checkbox" />(C)用户目标级</li>
+					<li class="none-point"><input name="selectThree" type="checkbox" />(D)子功能级</li>
+				</ul>
+			</li>
+			<li>
+				<p class="font-style">类图由以下哪三部分组成：</p>
+				<ul>
+					<li class="none-point"><input name="selectFour" type="checkbox" />(A)名称(name)</li>
+					<li class="none-point"><input name="selectFour" type="checkbox" />(B)属性(Attribute)</li>
+					<li class="none-point"><input name="selectFour" type="checkbox" />(C)操作(Operation)</li>
+					<li class="none-point"><input name="selectFour" type="checkbox" />(D)方法(Function)</li>
+				</ul>
+			</li>
+		</ol>
+	</div>
+	<div class="quiz">
+		<div class="quiz-title">四、判断题（每题10分，共20分）</div>
+		<ol>
+			<li>
+				<span class="font-style">用例图只是用于和客户交流和沟通的，用于确定需求。</span>
+				<input name="judgeOne" type="radio"/>
+				<img src="https://png.icons8.com/metro/20/27ae60/checkmark.png">
+				<input name="judgeOne" type="radio"/>
+				<img src="https://png.icons8.com/metro/20/ff0000/multiply.png">
+			</li>
+			<li>
+				<span class="font-style">在状态图中，终止状态在一个状态图中允许有任意多个。</span>
+				<input name="judgeTwo" type="radio"/>
+				<img src="https://png.icons8.com/metro/20/27ae60/checkmark.png">
+				<input name="judgeTwo" type="radio"/>
+				<img src="https://png.icons8.com/metro/20/ff0000/multiply.png">
+			</li>
+		</ol>
+	</div>
+	<div class="quiz">
+		<div class="quiz-title">五、简答题（每题20分，共20分）</div>
+		<ol>
+			<li>
+				<p class="font-style">简述什么是模型以及模型的表现形式？</p>
+				<textarea name="short" cols="30" rows="5"></textarea>
+			</li>
+		</ol>
+	</div>
+</div>
+<div class="submit-button">
+	<button>计算分数</button>
+</div>
+</body>
+</html>
