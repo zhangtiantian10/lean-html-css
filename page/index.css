@@ -1,0 +1,240 @@
+body {
+	padding: 50px 0;
+}
+
+.overall-content {
+	width: 1600px;
+	margin: 0 auto;
+	box-shadow: 20px 20px 20px #6d91b1;
+}
+
+.header {
+	height: 100px;
+	background-color: #fcf9f4;
+}
+
+.header-logo {
+	width: 400px;
+	text-align: right;
+	height: 100%;
+	display: inline-block;
+	float: left;
+}
+
+.header-center {
+	padding: 40px 42px;
+	width: 798px;
+	border-right: 1px solid #eae7e2;
+	border-left: 1px solid #eae7e2;
+	display: inline-block;
+	line-height: 20px;
+	float: left;
+}
+
+.footer {
+	height: 100px;
+	background-color: #4d4e59;
+	text-align: center;
+}
+
+.footer-text{
+	color: #d4d2d0;
+	padding: 40px 0;
+	line-height: 20px;
+	margin: 0;
+	font-size: 16px;
+	font-family: "Open Sans";
+}
+
+.font-style {
+	color: #d8d6d5;
+	float: left;
+	width: 16%;
+	text-align: center;
+	font-size: 18px;
+}
+
+.header-button {
+	padding: 30px 0 30px 42px;
+	display: inline-block;
+}
+
+.header-button button {
+	width: 148px;
+	height: 38px;
+	border: 1px solid #dad7d2;
+	color: #4d4e59;
+	border-radius: 5px;
+}
+
+.image-content-backgrand {
+	position: absolute;
+	background-image: url(./images/hero.png);
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	height: 794px;
+	width: 1600px;
+	top: 150px;
+	z-index: -1;
+}
+
+.image-content-backgrand:after{
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "";
+	background-color: rgba(255, 255, 255, 0.1);
+	z-index: -1;
+	height: 794px;
+	width: 1600px;
+}
+
+.image-content-center {
+	margin-top: 300px;
+	text-align: center;
+	height: 486px;
+}
+
+.image-content-center h1 {
+	font-size: 40px;
+	font-family: 'Amatica Sc', cursive;
+	font-weight: normal;
+	color: #ffffff;
+	line-height: 40px;
+	margin: 0;
+}
+
+.image-content-center-buttons {
+	margin-top: 50px;
+}
+
+.image-content-center-buttons button {
+	width: 270px;
+	height: 60px;
+	border-radius: 5px;
+	color: #ffffff;
+	font-size: 24px;
+	font-family: 'Amatica Sc', cursive;
+}
+
+.student-button {
+	background: none;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	margin-right: 30px;
+}
+
+.tutor-button {
+	background-color:rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.mission {
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	padding-top: 150px;
+	padding-bottom: 200px;
+	text-align: center;
+}
+
+p.title {
+	font-size: 52px;
+	font-family: 'Amatica Sc', cursive;
+	color: #4d4e59;
+	margin: 0;
+}
+
+p.content {
+	font-size: 20px;
+	font-family: 'Open Sans';
+	color: #636471;
+	width: 740px;
+	margin: 32px auto;
+	line-height: 40px;
+}
+
+.yellow-button {
+	background-color: #ffcd62;
+	color: #636471;
+	width: 270px;
+	height: 60px;
+	border: none;
+	border-radius: 5px;
+	font-size: 24px;
+	font-family: 'Open Sans';
+}
+
+.description-card {
+	height: 530px;
+	padding: 170px 300px 0px 312px;
+}
+
+.card-image {
+	display: inline-block;
+}
+
+.card-right {
+	display: inline-block;
+	width: 520px;
+}
+
+.card-text h1 {
+	font-size: 52px;
+	margin: 0;
+	color: #fcf9f4;
+	font-family: 'Amatica Sc', cursive;
+}
+
+.card-text p {
+	font-size: 20px;
+	color: #fcf9f4;
+	margin: 32px 0;
+	font-family: "Open Sans";
+	width: 520px;
+	line-height: 30px;
+}
+
+.card-text button {
+	font-family: "Open Sans";
+	height: 60px;
+	width: 300px;
+	border-radius: 5px;
+	color: #fcf9f4;
+	border: none;
+	font-size: 24px;
+}
+
+.progress {
+	padding: 170px 218px 0px 218px;
+	width: auto;
+	height: 670px;
+	background-color: #fff;
+}
+
+.progress h1 {
+	font-size: 52px;
+	font-family: 'Amatica Sc', cursive;
+	color: #4d4e59;
+	margin: 0 0 80px 0;
+	text-align: center;
+}
+
+.card {
+	width: 350px;
+	height: 350px;
+	text-align: center;
+	border: #eeece7 solid 2px;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+.card h1 {
+	font-size: 72px;
+	font-family: 'Amatica Sc', cursive;
+	margin: 52px 0;
+}
+
+.card p {
+	font-size: 16px;
+	margin: 0;
+}
